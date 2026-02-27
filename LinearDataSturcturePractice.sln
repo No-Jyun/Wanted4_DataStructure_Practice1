@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36908.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinearDataSturcturePractice", "LinearDataSturcturePractice\LinearDataSturcturePractice.vcxproj", "{EC722D8C-8A6A-4922-BB84-CEE97AC49A32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC722D8C-8A6A-4922-BB84-CEE97AC49A32}.Debug|x64.ActiveCfg = Debug|x64
+		{EC722D8C-8A6A-4922-BB84-CEE97AC49A32}.Debug|x64.Build.0 = Debug|x64
+		{EC722D8C-8A6A-4922-BB84-CEE97AC49A32}.Release|x64.ActiveCfg = Release|x64
+		{EC722D8C-8A6A-4922-BB84-CEE97AC49A32}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C65828D9-1F4E-4BDA-A2B5-9D1F32DA18B2}
+	EndGlobalSection
+EndGlobal
