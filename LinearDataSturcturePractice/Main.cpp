@@ -4,8 +4,14 @@
 #include <iostream>
 #include <Windows.h>
 
+#define _CRTDBG_MAP_ALLOC
+#include <stdlib.h>
+#include <crtdbg.h>
+
 int main()
 {
+	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+
 	Input input;
 
 	// 카드 정보 저장 클래스 생성

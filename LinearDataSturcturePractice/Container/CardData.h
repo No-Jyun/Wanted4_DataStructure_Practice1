@@ -5,11 +5,11 @@
 
 struct Card
 {
-	int id;
-	std::string name;
-	std::string type;
-	int cost;
-	int rarity;
+	int id = 0;
+	std::string name = "";
+	std::string type = "";
+	int cost = 0;
+	int rarity = 0;
 };
 
 class CardData
@@ -34,11 +34,5 @@ private:
 	int exCardIndex = -1;
 
 	Vector<Card> data;
-
-	//Vector<int> cardId;
-	//Vector<std::string> cardName;
-	//Vector<std::string> cardType;
-	//Vector<int> cardCost;
-	//Vector<int> cardRarity;
 };
 
