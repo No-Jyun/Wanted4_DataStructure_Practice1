@@ -79,11 +79,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Container\CardData.cpp" />
+    <ClCompile Include="Core\Input.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Container\CardData.h" />
     <ClInclude Include="Container\Vector.h" />
+    <ClInclude Include="Core\Input.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Resources\CardData.csv" />
